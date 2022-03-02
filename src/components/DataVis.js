@@ -3,7 +3,7 @@ import "./DataVis.css";
 import { PowerBIEmbed } from "powerbi-client-react";
 import { models } from "powerbi-client";
 import { getAccessToken } from "./GenerateAccessToken";
-import Reports from "./Reports";
+import ExecSummary from "./ExecSummary";
 
 class DataVis extends Component {
   constructor(props) {
@@ -27,33 +27,18 @@ class DataVis extends Component {
 
   render() {
     return (
-      <div className="allReports">
-        <div className="cards">
-          <h1>Executive Summary</h1>
-          <div className="cards__container">
-            <div className="cards__wrapper">
-              <ul className="cards__items">
-                <Reports
-                  src="images/WSU-Cougar.jpg"
-                  text="Explore the hidden waterfall deep inside the Amazon Jungle"
-                  label="Adventure"
-                />
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="DataVis">
-          <header className="App-backdrop">
-            <iframe
-              title="CapStoneProject"
-              width="1000"
-              height="700"
-              src="https://app.powerbi.com/view?r=eyJrIjoiNGJiNWY4OTYtYTEwNy00NDI2LTk5YmQtN2Q2NjBjYTg2ZGQ4IiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9&pageName=ReportSection"
-              frameborder="0"
-              allowFullScreen="true"
-            ></iframe>
-          </header>
-          {/* 
+      <div className="DataVis">
+        <header className="App-backdrop">
+          <iframe
+            title="CapStoneProject"
+            width="1000"
+            height="700"
+            src="https://app.powerbi.com/view?r=eyJrIjoiNGJiNWY4OTYtYTEwNy00NDI2LTk5YmQtN2Q2NjBjYTg2ZGQ4IiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9&pageName=ReportSection"
+            frameborder="0"
+            allowFullScreen="true"
+          ></iframe>
+        </header>
+        {/* 
         <p className="App-title"> Report Page </p>
         <PowerBIEmbed
           embedConfig={{
@@ -100,7 +85,6 @@ class DataVis extends Component {
           // }}
         />
       </header> */}
-        </div>
       </div>
     );
   }
