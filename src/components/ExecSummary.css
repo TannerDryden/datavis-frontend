@@ -5,16 +5,30 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  background-color: #fff;
+  background-color: #f7f7f7;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 .execContainer {
   margin-left: 100px;
   display: flex;
   justify-content: left;
   align-items: left;
-  height: 80px;
-  max-width: 1500px;
-  padding-bottom: 200px;
+  height: 500px;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+.WSU-LOGO {
+  padding-left: 100px;
+  align-items: right;
+}
+
+.resize {
+  width: 520px; /* you can use % */
+  height: auto;
 }
 .container > h1 {
   margin-left: 100px;
@@ -26,11 +40,20 @@
   line-height: 1em;
   padding: 40px 0 20px;
 }
-
+.container > h2 {
+  margin-left: 60px;
+  padding-bottom: 25px;
+}
 .container > p {
-  margin-left: 20px;
-  font-size: 25em;
-  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.5em;
+  color: #424242;
+  padding-bottom: 50px;
+}
+.execContainer > p {
+  font-size: 1.5em;
+  font-weight: 1;
   line-height: 1.5em;
   color: #424242;
   padding-bottom: 1em;
@@ -42,4 +65,14 @@ hr.style-two {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding: 40px 0 20px;
+}
+.metroText {
+  padding: 60px;
+}
+.metroText > p {
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.5em;
+  color: #424242;
+  padding-bottom: 1em;
 }
