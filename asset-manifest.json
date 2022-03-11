@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/datavis-frontend/static/css/main.7898fa62.css",
+    "main.js": "/datavis-frontend/static/js/main.a21d122a.js",
+    "index.html": "/datavis-frontend/index.html",
+    "main.7898fa62.css.map": "/datavis-frontend/static/css/main.7898fa62.css.map",
+    "main.a21d122a.js.map": "/datavis-frontend/static/js/main.a21d122a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7898fa62.css",
+    "static/js/main.a21d122a.js"
+  ]
+}
