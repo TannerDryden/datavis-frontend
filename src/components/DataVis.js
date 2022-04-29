@@ -38,7 +38,7 @@ class DataVis extends Component {
             allowFullScreen="true"
           ></iframe>
         </header>
-        {/* 
+        {/* THIS IS WHERE IT STOPPED
         <p className="App-title"> Report Page </p>
         <PowerBIEmbed
           embedConfig={{
