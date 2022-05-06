@@ -40,3 +40,6 @@
   object-fit: cover;
   transition: all 0.2s linear;
 }
+.space {
+  padding-bottom: 300px;
+}

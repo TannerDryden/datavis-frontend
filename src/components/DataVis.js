@@ -79,21 +79,15 @@ function DataVis() {
       </div>
 
       <iframe
-        title="WHA-Spokane - Spokane"
+        title="WHA-Spokane2 - Spokane"
         width="1300"
         height="600"
-        src="https://app.powerbi.com/view?r=eyJrIjoiNzk0NzE2YzQtODQyYi00YWE0LWE2MzMtNjQ5ZWZjNzkwNDM3IiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
+        src="https://app.powerbi.com/view?r=eyJrIjoiNjA5YzQ1Y2ItYTg4YS00ZmQ3LWEyYmItYjkzYTVhNWQwMjdjIiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
-      <iframe
-        title="WHA-9"
-        width="1300"
-        height="600"
-        src="https://app.powerbi.com/view?r=eyJrIjoiMzEyYWM4ZmEtMzIzZC00YjUyLTkwMDUtNWQwY2EwZTMwYjA4IiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9&pageName=ReportSection6ff639c6d6cc405029a4"
-        frameborder="0"
-        allowFullScreen="true"
-      ></iframe>
+      <div className="space"></div>
+
       <iframe
         title="WHA-10 - Clark"
         width="1300"
@@ -102,6 +96,16 @@ function DataVis() {
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
+      <div className="space"></div>
+      <iframe
+        title="WHA-Eastern1 - Eastern "
+        width="1300"
+        height="600"
+        src="https://app.powerbi.com/view?r=eyJrIjoiMmRlODc4M2QtNzA2ZC00ODE3LTgyMzQtM2IwYjc1YTM4MmYxIiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
+        frameborder="0"
+        allowFullScreen="true"
+      ></iframe>
+      <div className="space"></div>
       <iframe
         title="WHA-King - King"
         width="1300"
@@ -110,6 +114,16 @@ function DataVis() {
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
+      <div className="space"></div>
+      <iframe
+        title="WHA-41 - Seattle"
+        width="1300"
+        height="600"
+        src="https://app.powerbi.com/view?r=eyJrIjoiOTQxZWI4YmEtMDFhNC00OTE4LWFhMWItOTVlZjI4M2M0Y2ViIiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
+        frameborder="0"
+        allowFullScreen="true"
+      ></iframe>
+      <div className="space"></div>
       <iframe
         title="WHA-7 - Northwest"
         width="1300"
@@ -118,14 +132,7 @@ function DataVis() {
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
-      <iframe
-        title="WHA-6 - Peninsula"
-        width="1300"
-        height="600"
-        src="https://app.powerbi.com/view?r=eyJrIjoiYWUxNTk3NGUtMzhhMi00NWE5LThlNGItMmRmNTE2MDg3YTAwIiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
-        frameborder="0"
-        allowFullScreen="true"
-      ></iframe>
+      <div className="space"></div>
       <iframe
         title="WHA-5 - Peirce"
         width="1300"
@@ -134,11 +141,12 @@ function DataVis() {
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
+      <div className="space"></div>
       <iframe
-        title="WHA-4 - Seattle"
+        title="WHA-6 - Peninsula"
         width="1300"
         height="600"
-        src="https://app.powerbi.com/view?r=eyJrIjoiMGQ5NDIwMWQtNzhmMy00ZjE0LWFiMWQtYzU0MzJiODBjYTI1IiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
+        src="https://app.powerbi.com/view?r=eyJrIjoiYWUxNTk3NGUtMzhhMi00NWE5LThlNGItMmRmNTE2MDg3YTAwIiwidCI6ImI1MmJlNDcxLWY3ZjEtNDdiNC1hODc5LTBjNzk5YmI1M2RiNSIsImMiOjZ9"
         frameborder="0"
         allowFullScreen="true"
       ></iframe>
