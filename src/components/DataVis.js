@@ -73,7 +73,7 @@ function DataVis() {
       <div className="TextBox">
         <p>
           If you are interested in a single region, the following dashboards
-          that a closer look at each region individually. Each report contains
+          take a closer look at each region individually. Each report contains
           yearly percent change and yearly totals.
         </p>
       </div>
