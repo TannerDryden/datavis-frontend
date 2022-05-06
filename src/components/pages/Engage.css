@@ -1,0 +1,78 @@
+.engage {
+  font-size: 50px;
+}
+.container {
+  height: auto;
+  width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: #f7f7f7;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.execContainer {
+  margin-left: 100px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 500px;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+.WSU-LOGO {
+  padding-left: 100px;
+  align-items: right;
+}
+
+.resize {
+  width: 520px; /* you can use % */
+  height: auto;
+}
+.container > h1 {
+  margin-left: 100px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 2.75em;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1em;
+  padding: 40px 0 20px;
+}
+.container > h2 {
+  margin-left: 60px;
+  padding-bottom: 25px;
+}
+.container > p {
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.5em;
+  color: #424242;
+  padding-bottom: 50px;
+}
+.execContainer > p {
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.5em;
+  color: #424242;
+  padding-bottom: 1em;
+}
+
+hr.style-two {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 40px 0 20px;
+}
+.PeoplePhoto {
+  padding-left: 100px;
+}
+.h2 {
+  font-size: 100px;
+  font-weight: bold;
+}

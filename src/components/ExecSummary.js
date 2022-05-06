@@ -12,7 +12,7 @@ function ExecSummary() {
             {" "}
             The Washington State University Metro Center is working with the
             Washington Hospitality Association to develop and track key industry
-            benchmarks (eight) to help gauge the health of the industry, support
+            benchmarks to help gauge the health of the industry, support
             businesses in making sound decisions, and support policy development
             based on unbiased data. The Metro Center receives three types of
             highly confidential industry data from Washington State’s Employment
