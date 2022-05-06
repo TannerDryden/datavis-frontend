@@ -2,26 +2,44 @@
   text-align: center;
 }
 
-.Embed-container {
-  /* height: 500%;
-    width: 800%; */
-
-  height: 100%;
-  width: 200%;
+.TextBox {
+  margin-top: 25px;
+  font-size: 1.5em;
+  font-weight: 1;
+  line-height: 1.5em;
+  color: #424242;
+  padding-bottom: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-.App-backdrop {
-  padding: 2%;
-  background-color: #fff;
-  min-height: 100vh;
+.Title {
+  margin-top: 25px;
+  font-size: 45px;
+}
+
+.cards__item__pic-wrap {
+  margin-left: 200px;
+  height: 500px;
+  width: 500px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  width: 100%;
 }
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
 
-.App-link {
-  color: #61dafb;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+.space {
+  padding-bottom: 300px;
 }
