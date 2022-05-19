@@ -26,7 +26,7 @@ class WriteUp extends Component {
   }
 
   writeToFile() {
-    this.setState({exportContent: draftToHtml(convertToRaw(this.state.editorState.getCurrentContent()))});
+    //this.setState({exportContent: draftToHtml(convertToRaw(this.state.editorState.getCurrentContent()))});
     const element = document.createElement("a");
     const file = new Blob([this.state.exportContent], {type: 'text/plain'});
     element.href = URL.createObjectURL(file);
@@ -53,8 +53,12 @@ class WriteUp extends Component {
   onEditorStateChange = (editorState) => {
     this.setState({
       editorState,
-    });
+    }, this.setContent);
   };
+
+  setContent() {
+    this.setState({ exportContent: draftToHtml(convertToRaw(this.state.editorState.getCurrentContent())) });
+  }
 
   render() {
     const { editorState } = this.state;
